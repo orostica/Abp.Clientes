@@ -37,6 +37,9 @@
     "Unspecified": "Sistema",
     "SeeAllUsers": "Ver todos os usuários",
     "TakePhoto": "Tirar fotos",
-    "ChoosePhoto": "Escolher Foto"
+    "ChoosePhoto": "Escolher Foto",
+    "Menu:ClienteCrud": "Cliente CRUD",
+    "Menu:Clientes": "Clientes",
+    "AreYouSureToDelete":"Voce tem certeza que deseja excluir?"
   }
 }

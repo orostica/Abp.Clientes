@@ -23,12 +23,14 @@ function configureRoutes() {
         iconClass: 'fas fa-user',
         order: 2,
         layout: eLayoutType.application,
+        requiredPolicy: 'Clientes.Clientes',
       },
       {
         path: '/clientes',
         name: '::Menu:Clientes',
         parentName: '::Menu:ClienteCrud',
         layout: eLayoutType.application,
+        requiredPolicy: 'Clientes.Clientes',
       },
   ]);
 }

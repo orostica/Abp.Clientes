@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Abp.Clientes.Permissions;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Volo.Abp.Application.Dtos;
@@ -18,7 +19,11 @@ namespace Abp.Clientes.Clientes
         public ClienteAppService(IRepository<Cliente, Guid> repository)
             : base(repository)
         {
-
+            GetPolicyName = ClientesPermissions.Clientes.Default;
+            GetListPolicyName = ClientesPermissions.Clientes.Default;
+            CreatePolicyName = ClientesPermissions.Clientes.Create;
+            UpdatePolicyName = ClientesPermissions.Clientes.Edit;
+            DeletePolicyName = ClientesPermissions.Clientes.Delete;
         }
     }
 }

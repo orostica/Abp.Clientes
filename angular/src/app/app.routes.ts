@@ -23,5 +23,7 @@ export const APP_ROUTES: Routes = [
     path: 'setting-management',
     loadChildren: () => import('@abp/ng.setting-management').then(c => c.createRoutes()),
   },
-  { path : 'clientes', loadComponent: () => import('./cliente/cliente').then(c => c.Cliente) },
+  { path : 'clientes', loadComponent: () => import('./cliente/cliente').then(c => c.Cliente),
+    canActivate: [authGuard, permissionGuard],
+   },
 ];

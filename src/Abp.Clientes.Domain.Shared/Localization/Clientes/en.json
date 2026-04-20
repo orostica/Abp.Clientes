@@ -4,6 +4,15 @@
     "AppName": "Clientes",
     "Menu:Home": "Home",
     "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information visit",
-    "Welcome": "Welcome"
+    "Welcome": "Welcome",
+    "DataNascimento": "Data de Nascimento",
+    "Menu:ClienteCrud": "Cliente CRUD",
+    "Menu:Clientes": "Clientes",
+    "AreYouSureToDelete": "Are you sure to delete?",
+    "Permission:ClientesCRUD": "Clientes CRUD",
+    "Permission:Clientes": "Clientes Management",
+    "Permission:Clientes.Create": "Creating new Clientes",
+    "Permission:Clientes.Edit": "Editing the Clientes",
+    "Permission:Clientes.Delete": "Deleting the clientes"
   }
 }
